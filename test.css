@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./homeback.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1
+{
+    color: orangered;
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.menu-bar {
+    background-color: #083268;
+    text-align: center;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    display: inline-flex;
+
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size:large;
+}
+.menu-bar ul li:hover
+{
+   background: #3b41e6;
+   border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: #083268;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-2
+{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+    display:block;
+    position: absolute;
+    background-color: #083268;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display:block;
+    margin: 10px;
+}
